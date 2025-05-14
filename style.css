@@ -1,0 +1,121 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html, body {
+        height: 100vh;
+         width: 100vw;
+    }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+.main_box{
+        background-color: azure;
+        width: 425px;
+        border: 2px solid bisque;
+        border-radius: 10px;
+        
+}
+.main_box h2{
+        text-align: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-size: medium;
+}
+.amount{
+      background-color: white;
+     margin: 0px 20px 0px 20px;
+      padding: 10px;
+      border: 2px solid #6621ba;
+      border-radius: 10px;
+     
+      
+
+}
+.amount_image{
+        height: 45px;
+        width: 45px;
+        border-radius: 100% ;
+}
+
+.flag_box{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+    
+}
+.amount div p{
+        font-size: medium;
+}
+.box {
+        display: flex;
+        justify-content:start;
+        align-items: center;
+        gap: 20px;
+}
+
+@media (max-width: 750px) {
+        .main_box {
+            width: 90%;
+        }
+    }
+
+    input[type="number"] {
+        padding-block: 1px;
+        padding-inline: 2px;
+        width: 80px;
+        border: none;
+}
+svg{
+        height: 30px;
+        width: 30px;
+        rotate: 90deg;
+        align-items: center;
+}
+.svg_box{
+        text-align: center;
+        margin-top: -5px;
+        cursor: pointer;
+}
+
+.amount1{
+        background-color: white;
+         margin: -10px 20px 20px 20px;
+        padding: 10px;
+        border: 2px solid #6621ba;
+        border-radius: 10px;
+       
+        
+  
+  }
+  .result_show{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+  }
+  button{
+        padding: 6px;
+        width: 100%;
+       
+  }
+ .money{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #6621ba;
+        background-color: #6621ba;
+        padding: 1px;
+ }
+ .money p{
+        padding-left: 3px;
+        padding-right: 3px;
+        
+}
+  

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CURRENCY_CONVERTER</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="main_box">
+                <h2>CURRENCY_CONVERTER</h2>
+                <div class="currency_box">
+                        <div class="amount">
+                                <div>
+                                        <p>Amount</p>
+                                        <div class="box">
+                                        <div class="flag_box">
+                                                <img id="amountImage" class="amount_image" src="https://www.shareicon.net/data/512x512/2016/09/01/822462_world_512x512.png" alt="image">
+                                                <select name="amount_currency" id="amount_currency" size="1">
+                                        </select>
+                                        </div>
+                                        <div class="money">
+                                                <p id="inr">INR</p>
+                                                <input id="amountValue" value="" type="number" name="" id="">
+                                        </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <div id="toggleDiv" class="svg_box">
+                                
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 32 32" viewBox="0 0 32 32" id="transfer">
+                                                <rect width="32" height="32" fill="#ffffff" rx="16"  ry="16" />
+                                                <g id="Transfer" >
+                                                  <path fill="#6621ba" d="M16,1.1C7.784,1.1,1.1,7.784,1.1,16S7.784,30.9,16,30.9S30.9,24.216,30.9,16S24.216,1.1,16,1.1z M16,29.1
+                                                              C8.776,29.1,2.9,23.224,2.9,16S8.776,2.9,16,2.9S29.1,8.776,29.1,16S23.224,29.1,16,29.1z"></path>
+                                                  <path fill="#f98a17" d="M21.375 18.1h-8.577l.675-.675c.352-.352.352-.922 0-1.273s-.922-.352-1.273 0l-2.212 2.212c-.352.352-.352.922 0 1.273l2.212 2.212c.176.176.406.264.637.264s.461-.088.637-.264c.352-.352.352-.922 0-1.273L12.798 19.9h8.577c.497 0 .9-.403.9-.9S21.872 18.1 21.375 18.1zM19.8 10.151c-.352-.352-.922-.352-1.273 0s-.352.922 0 1.273l.675.675h-8.577c-.497 0-.9.403-.9.9s.403.9.9.9h8.577l-.675.675c-.352.352-.352.922 0 1.273.176.176.406.264.637.264s.461-.088.637-.264l2.212-2.212c.352-.352.352-.922 0-1.273L19.8 10.151z"></path>
+                                                </g>
+                                              </svg>
+                                
+
+                        </div>
+                        <div class="converted_amount">
+                                <div class="amount1">
+                                        <div>
+                                                <p>Converted Amount</p>
+                                                <div class="box">
+                                                <div class="flag_box">
+                                                        <img id="convertedImg" class="amount_image" src="https://www.shareicon.net/data/512x512/2016/09/01/822462_world_512x512.png" alt="image">
+                                                        <select name="amount_currency" id="convertedAmount">
+                                                       
+                                                </select>
+                                                </div>
+                                                <div class="money">
+                                                        <p id="USD">INR</p>
+                                                        <input  id="convertedValue" value="" type="number" name="" readonly>
+                                                </div>
+                                               
+                                                </div>
+                                        </div>
+                                </div>
+
+                        </div>
+                        <div class="result_show">
+                                
+                        </div>
+                        <div class="result_show">
+                                <button id="ExchangeBtn">Get Exchange Rate</button>
+                        </div>
+
+                </div>
+
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
